@@ -1,7 +1,7 @@
 # python-astm
-medical equipment communication ASTM protocol\\
-it is copy of a python package by Alexander Shorin\\
-It adds one working example of his package\\
+medical equipment communication ASTM protocol\
+it is copy of a python package by Alexander Shorin\
+It adds one working example of his package\
 
  I have tried it for Erba XL-640 biochemistry analyser\\
 Adapt it to your need\\
