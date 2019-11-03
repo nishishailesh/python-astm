@@ -1,18 +1,18 @@
 # python-astm
-medical equipment communication ASTM protocol
-it is copy of a python package by Alexander Shorin
-It adds one working example of his package
+medical equipment communication ASTM protocol\\
+it is copy of a python package by Alexander Shorin\\
+It adds one working example of his package\\
 
- I have tried it for Erba XL-640 biochemistry analyser
-Adapt it to your need
+ I have tried it for Erba XL-640 biochemistry analyser\\
+Adapt it to your need\\
 
-create a folder 'erba' in /usr/lib/python3.7/astm/astm
-there will be two files in the /usr/lib/python3.7/astm/astm/erba folder
+create a folder 'erba' in /usr/lib/python3.7/astm/astm\\
+there will be two files in the /usr/lib/python3.7/astm/astm/erba folder\\
 
-root@debian:/usr/lib/python3.7/astm/astm# ls erba -l
-total 8
--rw-r--r-- 1 root root 975 Nov 3 22:02 erbaserver.py
--rw-r--r-- 1 root root 26 Nov 3 11:40 __init__.py
+root@debian:/usr/lib/python3.7/astm/astm# ls erba -l\\
+total 8\\
+-rw-r--r-- 1 root root 975 Nov 3 22:02 erbaserver.py\\
+-rw-r--r-- 1 root root 26 Nov 3 11:40 __init__.py\\
 
 ==== __init__.py ========
 ```
@@ -66,12 +66,12 @@ s=astm.astm.server.Server(host='192.168.56.1', port=15200,
 s.serve_forever()
 ```
 =======Run server============
-chmod +x myserver.py
-./myserver.py
+chmod +x myserver.py\\
+./myserver.py\\
 
-use appropriate python version declaration in each file
-Connect client machine with appropriate id and port
-Result and Query from erba XL-640 will be printed in terminal
-This package is unidirectional only.
-I am planning to convert it to bidirectional package
-email:biochemistrygmcs@gmail.com
+use appropriate python version declaration in each file\\
+Connect client machine with appropriate id and port\\
+Result and Query from erba XL-640 will be printed in terminal\\
+This package is unidirectional only.\\
+I am planning to convert it to bidirectional package\\
+email:biochemistrygmcs@gmail.com\\
