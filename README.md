@@ -15,10 +15,11 @@ total 8
 -rw-r--r-- 1 root root 26 Nov 3 11:40 __init__.py
 
 ==== __init__.py ========
+```
 from . import erbaserver
-
+```
 ==== erbaserver.py ======
-<code>
+```
 from .. import server
 print (dir(server))
 
@@ -49,21 +50,21 @@ class Dispatcher(server.BaseRecordsDispatcher):
 
     def on_unknown(self, record):
         print('UNKNOWN:',record)
-</code>
+```
 =========================
 In this way we have extended BaseRecordsDispatcher class for our own use
 
 Lastly create following file at any place (change ip and port)
 
 ======myserver.py===========
-
+```
 #!/usr/bin/python3.7
 import astm.astm.erba
 s=astm.astm.server.Server(host='192.168.56.1', port=15200,
                  request=None, dispatcher=astm.astm.erba.erbaserver.Dispatcher,
                  timeout=None, encoding=None)
 s.serve_forever()
-
+```
 =======Run server============
 chmod +x myserver.py
 ./myserver.py
