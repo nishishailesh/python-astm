@@ -6,7 +6,7 @@ It adds one working example of his package\\
  I have tried it for Erba XL-640 biochemistry analyser\\
 Adapt it to your need\\
 
-create a folder 'erba' in /usr/lib/python3.7/astm/astm\\
+create a folder 'erba' in /usr/lib/python3.7/astm/astm \\
 there will be two files in the /usr/lib/python3.7/astm/astm/erba folder\\
 
 root@debian:/usr/lib/python3.7/astm/astm# ls erba -l\\
